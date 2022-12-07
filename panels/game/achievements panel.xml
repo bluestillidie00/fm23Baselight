@@ -1578,6 +1578,35 @@
 			</container>	
 
 		</container>
+	
+	<!-- GRAPH -->
+		<container class="main_box">
+			<attachment_group class="vertical_arrange_autosize" />
+			<translation id="title" type="use" value="GRAPHS" />
+
+			<container height="24">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" />
+
+				<widget class="text" alignment="left,centre_y" >
+					<translation id="text" type="use" value="graph team 1" />
+				</widget>
+
+				<container class="main_contrast_box" rrep="graph team 1" width="50">
+				</container>
+			</container>	
+
+			<container height="24">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" />
+
+				<widget class="text" alignment="left,centre_y" >
+					<translation id="text" type="use" value="graph team 2" />
+				</widget>
+
+				<container class="main_contrast_box" rrep="graph team 2" width="50">
+				</container>
+			</container>	
+
+		</container>
 	</container>
 
 	<container class="main_box">
