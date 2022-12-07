@@ -8,10 +8,6 @@
 	<colour name="duty support"     red="132" green="235" blue="255"/>
 	<colour name="duty defend"      red="255" green="152" blue="146"/>
 
-	<!-- RESPONSIBILITY -->
-	<colour name="manager responsibility" 					value="fg blue" />
-	<colour name="staff responsibility" 					value="fg purple" />
-
 	<!-- Foreground colours - used for text, icon etc -->
 	<colour name="fg lighter" 																	value="blue grey 500"/>
 	<colour name="fg" 																					value="blue grey 900"/>
@@ -199,7 +195,11 @@
 	<colour name="accent button text" 						value="bg" />
 	<colour name="inbox_text" 								value="fg"/>
 
-
+	<!-- RESPONSIBILITY -->
+	<colour name="manager responsibility" 					value="fg blue" />
+	<colour name="staff responsibility" 					value="fg purple" />
+	
+	
 	<!-- Base icon colours -->
 	<colour name="normal_icon" 																			value="fg"/>
 	<colour name="button_icon" 																			value="fg"/> 
