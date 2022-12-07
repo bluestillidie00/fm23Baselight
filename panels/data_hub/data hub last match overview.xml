@@ -41,7 +41,10 @@
 					</widget>
 				</container>
 
-				<container class="tactics_recent_match_analysis_panel" id="anLy" navigation_container="true" />
+				<container class="main_contrast_box" rrep="pitch_box_background">
+					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+					<container class="tactics_recent_match_analysis_panel" id="anLy" navigation_container="true" />
+				</container>
 			</container>
 		</container>
 	</widget>
