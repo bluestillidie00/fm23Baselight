@@ -33,6 +33,8 @@
 	<colour name="fg range14" 																	value="rgb(196,222,22)" />
 	<colour name="fg range15" 																	value="rgb(168,222,29)" />
 	<colour name="fg range16" 																	value="rgb(147,221,32)" />
+
+
 	<colour name="fg range18" 																	value="rgb(73,230,35)" />
 	<colour name="fg range19" 																	value="rgb(38,242,60)" />
 
@@ -160,12 +162,10 @@
 
 	<colour name="shadow" 																			value="rgb(0,0,0)" />
 
-	<!-- TOM CHANGES -->
+
 	<colour name="overall_risk_box_colour_very_high" 		value="bg negative"/>
 	<colour name="aquaintance relationship" 							value="lime 600" />
-	<colour name="team_report_games_drawn_colour" 			value="bg range10"/>
-	<colour name="staff overview head performance analyst colour" value="bg yellow"/>
-	<colour name="staff overview performance analyst colour" 			value="bg yellow darker"/>
+
 
 
 	<!-- The following colours are just here temporarily to make sure nothing gets broken in other non-FM projects. We need to determine which of these belong in sitoolkit and which should live in fm colours.xml  -->
