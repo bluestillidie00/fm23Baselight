@@ -164,6 +164,8 @@
 	<colour name="overall_risk_box_colour_very_high" 		value="bg negative"/>
 	<colour name="aquaintance relationship" 							value="lime 600" />
 	<colour name="team_report_games_drawn_colour" 			value="bg range10"/>
+	<colour name="staff overview head performance analyst colour" value="bg yellow"/>
+	<colour name="staff overview performance analyst colour" 			value="bg yellow darker"/>
 
 
 	<!-- The following colours are just here temporarily to make sure nothing gets broken in other non-FM projects. We need to determine which of these belong in sitoolkit and which should live in fm colours.xml  -->
