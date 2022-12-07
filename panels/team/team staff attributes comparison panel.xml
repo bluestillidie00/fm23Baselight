@@ -2,16 +2,16 @@
 <panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-	<flags id="bcol" value="fg range20" />
 	<!-- highest text -->
-	<flags id="wcol" value="fg red" />
+	<flags id="bcol" value="fg range20" />
 	<!-- lowest text -->
-	<flags id="acol" value="text" />
+	<flags id="wcol" value="fg range1" />
 	<!-- average line -->
-	<flags id="ncol" value="bg blue darker" />
+	<flags id="acol" value="fg" />
 	<!-- team bars -->
-
+	<flags id="ncol" value="fg tertiary" />
 	<flags id="bbco" value="transparent" />
+	<!-- OVERLAY -->
 	<flags id="wbco" value="bg alpha" />
 
 	<flags id="alwt" value="2"/>
