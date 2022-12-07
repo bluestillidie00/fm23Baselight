@@ -84,7 +84,7 @@
 	<colour name="bg lighter" 																	value="rgb(255,255,255)"/>
 	<colour name="bg" 																			value="rgb(255,251,254)"/>
 	<colour name="bg darker" 																	value="rgb(240,240,240)"/>
-	<colour name="bg alpha" 																	value="rgba(18,7,30,0.8)"/>
+	<colour name="bg alpha" 																	value="rgba(255,251,254,0.8)"/>
 	<colour name="bg small alpha" 																value="rgba(18,7,30,0.94)"/>
 	<colour name="bg large alpha" 																value="rgba(18,7,30,0.5)"/>
 	<colour name="bg info" 																		value="rgb(39,103,192)"/>
@@ -194,7 +194,9 @@
 	<!-- TOM TEXT COLOURS -->	
 	<colour name="accent button text" 						value="bg" />
 	<colour name="inbox_text" 								value="fg"/>
+		<colour name="team_report_games_drawn_colour" 			value="bg range10"/>
 	<colour name="staff overview head performance analyst colour" value="bg yellow"/>
+
 	<colour name="staff overview performance analyst colour" 			value="bg yellow darker"/>
 	
 	<!-- RESPONSIBILITY -->
