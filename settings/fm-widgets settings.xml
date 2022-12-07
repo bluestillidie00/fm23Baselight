@@ -194,7 +194,9 @@
 	<!-- TOM TEXT COLOURS -->	
 	<colour name="accent button text" 						value="bg" />
 	<colour name="inbox_text" 								value="fg"/>
-
+	<colour name="staff overview head performance analyst colour" value="bg yellow"/>
+	<colour name="staff overview performance analyst colour" 			value="bg yellow darker"/>
+	
 	<!-- RESPONSIBILITY -->
 	<colour name="manager responsibility" 					value="fg blue" />
 	<colour name="staff responsibility" 					value="fg purple" />
