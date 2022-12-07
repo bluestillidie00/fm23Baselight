@@ -1,0 +1,50 @@
+﻿<panel height="30">
+	<attachment_group class="horizontal_arrange" horizontal_alignment="middle" horizontal_offset="0" horizontal_gap="14" vertical_offset="0" />
+
+	<list id="properties_to_forward">
+		<record get_property="EMfc" set_property="rrep" target="fcck" />
+		<record get_property="EMbc" set_property="rrep" target="buck" />
+		<record get_property="EMpc" set_property="rrep" target="prck" />		
+		<record get_property="transparency" set_property="transparency" target="fcck" />
+		<record get_property="transparency" set_property="transparency" target="buck" />
+		<record get_property="transparency" set_property="transparency" target="prck" />
+	</list>
+	
+	<!--First Choice-->
+	<container>
+		<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="middle" horizontal_offset="0" horizontal_gap="4" vertical_offset="0" />
+
+		<widget class="picture" height="28" width="20" file="icons/16px/circle" scale_picture="true" image_alignment="centre" id="fcck" />
+
+		<widget class="label" colour="text" size="large" auto_size="horizontal" alignment="left,centre_y">
+			<translation id="text" translation_id="248409" type="use" value="Development" />
+			<translation id="text" translation_id="553529" type="use" value="Important[COMMENT: AREA: Squad; SUB-AREA: Experience Matrix; FR: FM-4065, NOTE: title to describe players who's playing time is star player, important player or regular starter]" />
+
+		</widget>
+
+	</container>
+
+	<!--Backup-->
+	<container>
+		<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="middle" horizontal_offset="0" horizontal_gap="4" vertical_offset="0" />
+
+		<widget class="picture" height="28" width="20" file="icons/16px/circle" scale_picture="true" image_alignment="centre" id="buck" />
+
+		<widget class="label" colour="text" size="large" auto_size="horizontal" alignment="left,centre_y">
+			<translation id="text" translation_id="553530" type="use" value="Squad Depth[COMMENT: AREA: Squad; SUB-AREA: Experience Matrix; FR: FM-4065, NOTE: title to describe players who's playing time is squad player, backup or fringe]" />
+		</widget>
+
+	</container>
+
+	<!--Prospect-->
+	<container>
+		<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="middle" horizontal_offset="0" horizontal_gap="4" vertical_offset="0" />
+
+		<widget class="picture" height="28" width="20" file="icons/16px/circle" scale_picture="true" image_alignment="centre" id="prck" />
+
+		<widget class="label" colour="text" size="large" auto_size="horizontal" alignment="left,centre_y">
+			<translation id="text" translation_id="553531" type="use" value="Youth[COMMENT: AREA: Squad; SUB-AREA: Experience Matrix; FR: FM-4065, NOTE: title to describe players who's playing time is future prospect, breakthrough or youth prospect]" />
+		</widget>
+
+	</container>
+</panel>
