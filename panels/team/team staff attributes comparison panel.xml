@@ -2,10 +2,10 @@
 <panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-	<flags id="bcol" value="comparison best" />		<!-- highest text -->
-	<flags id="wcol" value="comparison worst" />	<!-- lowest text -->
+	<flags id="bcol" value="fg green" />		<!-- highest text -->
+	<flags id="wcol" value="fg red" />	<!-- lowest text -->
 	<flags id="acol" value="text" />	<!-- average line -->
-	<flags id="ncol" value="comparison normal" />	<!-- team bars -->
+	<flags id="ncol" value="bg blue darker" />	<!-- team bars -->
 
 	<flags id="bbco" value="transparent" />
 	<flags id="wbco" value="bg alpha" />
