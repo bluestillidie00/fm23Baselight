@@ -3,7 +3,7 @@
 	<translation id="name" type="use" value="Base 23 Light" />
 	<string id="author" value="Bluestillidie00" />
 	<translation id="description" type="use" value="Based on default skin" />
-	<string id="version" value="1.0" />
+	<string id="version" value="0.001a" />
 	<flags id="parent" value="fm" />
 	<string id="skin_name" value="Base23Light" />
 	<string id="required_version" value="23.0.0" />
