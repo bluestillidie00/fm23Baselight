@@ -16,11 +16,14 @@
 				<translation id="title" translation_id="331967" type="use" value="Summary[COMMENT: MLS draft panel; summary panel title]" />
 				<widget class="text" id="psmS" alignment="left,centre_y" auto_size="vertical" />
 			</container>
-			<container class="inner_box" id="expT">
+			<container id="expT">
 				<translation id="title" translation_id="447657" type="use" value="Expected Tactic[COMMENT: oppositon team report; heading]" />
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-
-				<widget class="pitch_with_tactics" id="otpc" pitch_vertical_padding="0" pitch_alignment="top,can_scale" vertical="true" pitch_is_read_only="true" player_icon_file="tactics/tactics icon opposition predicted team" icon_flags="show_name,show_number,show_role_duty_labels,dont_colour_names,dont_fade_icons,show_preview_info_popup" pitch_draw_grass="false" pitch_line_colour="text" />
+				
+										
+						<widget class="picture" height="335" file="boxes/custom/match/lineup pitch/circles" image_alignment="centre" scale_picture="true" keep_aspect_ratio="false"/>
+							
+				<widget class="pitch_with_tactics" id="otpc" pitch_vertical_padding="25" pitch_alignment="top,can_scale" vertical="true" pitch_is_read_only="true" player_icon_file="tactics/tactics icon opposition predicted team" icon_flags="show_name,show_number,show_role_duty_labels,dont_colour_names,dont_fade_icons,show_preview_info_popup" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_touchline_width_percentage="10" pitch_perspective="0.2"/>
 			</container>
 		</container>
 
