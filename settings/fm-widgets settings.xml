@@ -8,149 +8,140 @@
 	<colour name="duty support"     red="132" green="235" blue="255"/>
 	<colour name="duty defend"      red="255" green="152" blue="146"/>
 
-	<!-- Foreground colours - used for text, icon etc -->
-	<colour name="fg lighter" 																	value="blue grey 500"/>
-	<colour name="fg" 																					value="blue grey 900"/>
-	<colour name="fg darker" 																		value="rgb(205,205,220)"/>
-	<colour name="fg alpha" 																		value="rgba(38,50,56,0.8)"/>
-	<colour name="fg info" 																			value="rgb(138,194,255)"/>
-	<colour name="fg accent" 																		value="rgb(106,217,225)"/>
-	<colour name="fg tertiary" 																	value="tcs_accent"/>
-	<colour name="fg negative" 																	value="rgb(182,40,40)"/>
-
-	<colour name="fg range2" 																		value="rgb(255,92,78)" />
-	<colour name="fg range3" 																		value="rgb(251,96,72)" />
-	<colour name="fg range4" 																		value="rgb(255,108,73)" />
-	<colour name="fg range5" 																		value="rgb(255,122,77)" />
-	<colour name="fg range6" 																		value="rgb(255,135,71)" />
-	<colour name="fg range7" 																		value="rgb(255,159,78)" />
-	<colour name="fg range8" 																		value="rgb(255,178,74)" />
-	<colour name="fg range9" 																		value="rgb(255,202,76)" />
-	<colour name="fg range10" 																	value="rgb(255,214,79)" />
-	<colour name="fg range11" 																	value="rgb(247,223,68)" />
-	<colour name="fg range12" 																	value="rgb(248,238,76)" />
-	<colour name="fg range13" 																	value="rgb(239,243,59)" />
-	<colour name="fg range14" 																	value="rgb(196,222,22)" />
-	<colour name="fg range15" 																	value="rgb(168,222,29)" />
-	<colour name="fg range16" 																	value="rgb(147,221,32)" />
-
-
-	<colour name="fg range18" 																	value="rgb(73,230,35)" />
-	<colour name="fg range19" 																	value="rgb(38,242,60)" />
-
-	<!-- EDITED -->
-	<colour name="fg range1" 																		value="rgb(175,0,0)" />
-	<colour name="fg range17" 																	value="rgb(20,149,39)" />
-	<colour name="fg range20" 																	value="rgb(17,146,0)" />
-
 	<colour name="fg positive" 																	value="fg range20"/>
 	<colour name="fg alert" 																	value="fg range10"/>
+	<colour name="fg negative" 																	value="fg range1"/>
 
-	<colour name="fg red lighter" 															value="red 200" />
-	<colour name="fg red" 																			value="red 300" />
-	<colour name="fg red darker" 																value="red 400" />
-	<colour name="fg pink lighter" 															value="pink 200" />
-	<colour name="fg pink" 																			value="pink 300" />
-	<colour name="fg pink darker" 															value="pink 400" />
-	<colour name="fg purple lighter" 														value="purple 200" />
-	<colour name="fg purple" 																		value="purple 300" />
-	<colour name="fg purple darker" 														value="purple 400" />
-	<colour name="fg blue lighter" 															value="blue 200" />
-	<colour name="fg blue" 																			value="rgb(0,98,161)" />
-	<colour name="fg blue darker" 															value="blue 400" />
-	<colour name="fg cyan lighter" 															value="cyan 200" />
-	<colour name="fg cyan" 																			value="cyan 300" />
-	<colour name="fg cyan darker" 															value="cyan 400" />
-	<colour name="fg teal lighter" 															value="teal 200" />
-	<colour name="fg teal" 																			value="teal 300" />
-	<colour name="fg teal darker" 															value="teal 400" />
-	<colour name="fg green lighter" 														value="green 200" />
-	<colour name="fg green" 																		value="green 300" />
-	<colour name="fg green darker" 															value="green 400" />
-	<colour name="fg lime lighter" 															value="lime 200" />
-	<colour name="fg lime" 																			value="lime 300" />
-	<colour name="fg lime darker" 															value="lime 400" />
-	<colour name="fg yellow lighter" 														value="yellow 200" />
-	<colour name="fg yellow" 																		value="yellow 300" />
-	<colour name="fg yellow darker" 														value="yellow 400" />
-	<colour name="fg orange lighter" 														value="orange 200" />
-	<colour name="fg orange" 																		value="orange 300" />
-	<colour name="fg orange darker" 														value="orange 400" />
-	<colour name="fg grey lighter" 															value="grey 200" />
-	<colour name="fg grey" 																			value="grey 300" />
-	<colour name="fg grey darker" 															value="grey 500" />
+	<colour name="fg lighter" 																	value="rgb(56,56,56)"/>
+	<colour name="fg" 																					value="rgb(36,36,36)"/>
+	<colour name="fg darker" 																		value="rgb(20,20,20)"/>
+	<colour name="fg alpha" 																		value="rgba(36,36,36,0.8)"/>
+	<colour name="fg accent" 																		value="tcs_accent"/>
+	<colour name="fg tertiary" 																	value="tcs_accent"/>
+	<colour name="bg tertiary" 																	value="tcs_accent"/>
+	<colour name="fg range1" 																		value="rgb(183,0,5)" />
+	<colour name="fg range2" 																		value="rgb(195,24,0)" />
+	<colour name="fg range3" 																		value="rgb(195,30,0)" />
+	<colour name="fg range4" 																		value="rgb(203,39,0)" />
+	<colour name="fg range5" 																		value="rgb(204,51,0)" />
+	<colour name="fg range6" 																		value="rgb(204,70,0)" />
+	<colour name="fg range7" 																		value="rgb(196,90,0)" />
+	<colour name="fg range8" 																		value="rgb(201,115,0)" />
+	<colour name="fg range9" 																		value="rgb(201,141,0)" />
+	<colour name="fg range10" 																	value="rgb(208,160,0)" />
+	<colour name="fg range11" 																	value="rgb(195,169,0)" />
+	<colour name="fg range12" 																	value="rgb(185,174,0)" />
+	<colour name="fg range13" 																	value="rgb(171,175,0)" />
+	<colour name="fg range14" 																	value="rgb(162,186,0)" />
+	<colour name="fg range15" 																	value="rgb(125,174,0)" />
+	<colour name="fg range16" 																	value="rgb(87,169,0)" />
+	<colour name="fg range17" 																	value="rgb(48,179,0)" />
+	<colour name="fg range18" 																	value="rgb(35,184,0)" />
+	<colour name="fg range19" 																	value="rgb(0,184,20)" />
+	<colour name="fg range20" 																	value="rgb(0,168,63)" />
 
-	<!-- Background colours - used for background, boxes etc -->
+	<colour name="fg red lighter" 															value="red 600" />
+	<colour name="fg red" 																			value="red 700" />
+	<colour name="fg red darker" 																value="red 800" />
+	<colour name="fg pink lighter" 															value="pink 600" />
+	<colour name="fg pink" 																			value="pink 700" />
+	<colour name="fg pink darker" 															value="pink 800" />
+	<colour name="fg purple lighter" 														value="purple 600" />
+	<colour name="fg purple" 																		value="purple 700" />
+	<colour name="fg purple darker" 														value="purple 800" />
+	<colour name="fg blue lighter" 															value="blue 600" />
+	<colour name="fg blue" 																			value="blue 700" />
+	<colour name="fg blue darker" 															value="blue 800" />
+	<colour name="fg cyan lighter" 															value="cyan 600" />
+	<colour name="fg cyan" 																			value="cyan 700" />
+	<colour name="fg cyan darker" 															value="cyan 800" />
+	<colour name="fg teal lighter" 															value="teal 600" />
+	<colour name="fg teal" 																			value="teal 700" />
+	<colour name="fg teal darker" 															value="teal 900" />
+	<colour name="fg green lighter" 														value="green 600" />
+	<colour name="fg green" 																		value="green 800" />
+	<colour name="fg green darker" 															value="green 900" />
+	<colour name="fg lime lighter" 															value="lime 600" />
+	<colour name="fg lime" 																			value="lime 700" />
+	<colour name="fg lime darker" 															value="lime 800" />
+	<colour name="fg yellow lighter" 														value="yellow 700" />
+	<colour name="fg yellow" 																		value="yellow 800" />
+	<colour name="fg yellow darker" 														value="yellow 900" />
+	<colour name="fg orange lighter" 														value="orange 600" />
+	<colour name="fg orange" 																		value="orange 700" />
+	<colour name="fg orange darker" 														value="orange 800" />
+	<colour name="fg grey lighter" 															value="grey 600" />
+	<colour name="fg grey" 																			value="grey 700" />
+	<colour name="fg grey darker" 															value="grey 800" />
+
+	<!-- Background colours - used for background, boxes etc -->	
 	<colour name="bg lighter" 																	value="rgb(255,255,255)"/>
-	<colour name="bg" 																			value="rgb(250,251,254)"/>
-	<colour name="bg darker" 																	value="rgb(230,232,233)"/>
-	<colour name="bg alpha" 																	value="rgba(255,251,254,0.8)"/>
-	<colour name="bg small alpha" 																value="rgba(255,251,254,0.94)"/>
-	<colour name="bg large alpha" 																value="rgba(255,251,254,0.5)"/>
+	<colour name="bg" 																					value="rgb(244,244,244)"/>
+	<colour name="bg darker" 																		value="rgb(205,205,205)"/>
+	<colour name="bg alpha" 																		value="rgba(244,244,244,0.7)"/>
+	<colour name="bg small alpha" 																value="rgba(244,244,244,0.94)"/>
+	<colour name="bg large alpha" 																value="rgba(244,244,244,0.5)"/>
 	<colour name="bg info" 																		value="rgb(39,103,192)"/>
 	<colour name="bg positive" 																	value="rgb(16,165,68)"/>
-	<colour name="bg alert" 																	value="rgb(0,129,138)"/>
-	<colour name="bg accent" 																	value="rgb(0,129,138)"/>
-	<colour name="bg negative" 																	value="fg range1"/>
+	<colour name="bg alert" 																	value="fg range10"/>
+	<colour name="bg negative" 																	value="rgb(182,40,40)"/>
+	<colour name="bg accent" 																		value="tcs_accent"/>
 
-	<colour name="bg tertiary" 																	value="tcs_accent"/>
 
-	<colour name="bg range1" 																		value="rgb(183,0,5)" />
-	<colour name="bg range2" 																		value="rgb(195,24,0)" />
-	<colour name="bg range3" 																		value="rgb(195,30,0)" />
-	<colour name="bg range4" 																		value="rgb(203,39,0)" />
-	<colour name="bg range5" 																		value="rgb(204,51,0)" />
-	<colour name="bg range6" 																		value="rgb(204,70,0)" />
-	<colour name="bg range7" 																		value="rgb(196,90,0)" />
-	<colour name="bg range8" 																		value="rgb(201,115,0)" />
-	<colour name="bg range9" 																		value="rgb(201,141,0)" />
-	<colour name="bg range10" 																	value="rgb(208,160,0)" />
-	<colour name="bg range11" 																	value="rgb(195,169,0)" />
-	<colour name="bg range12" 																	value="rgb(185,174,0)" />
-	<colour name="bg range13" 																	value="rgb(171,175,0)" />
-	<colour name="bg range14" 																	value="rgb(162,186,0)" />
-	<colour name="bg range15" 																	value="rgb(125,174,0)" />
-	<colour name="bg range16" 																	value="rgb(87,169,0)" />
-	<colour name="bg range17" 																	value="rgb(48,179,0)" />
-	<colour name="bg range18" 																	value="rgb(35,184,0)" />
-	<colour name="bg range19" 																	value="rgb(0,184,20)" />
-	<colour name="bg range20" 																	value="rgb(0,168,63)" />
+	<colour name="bg range1" 																		value="rgb(255,84,84)" />
+	<colour name="bg range2" 																		value="rgb(255,92,78)" />
+	<colour name="bg range3" 																		value="rgb(251,96,72)" />
+	<colour name="bg range4" 																		value="rgb(255,108,73)" />
+	<colour name="bg range5" 																		value="rgb(255,122,77)" />
+	<colour name="bg range6" 																		value="rgb(255,135,71)" />
+	<colour name="bg range7" 																		value="rgb(255,159,78)" />
+	<colour name="bg range8" 																		value="rgb(255,178,74)" />
+	<colour name="bg range9" 																		value="rgb(255,202,76)" />
+	<colour name="bg range10" 																	value="rgb(255,214,79)" />
+	<colour name="bg range11" 																	value="rgb(247,223,68)" />
+	<colour name="bg range12" 																	value="rgb(248,238,76)" />
+	<colour name="bg range13" 																	value="rgb(239,243,59)" />
+	<colour name="bg range14" 																	value="rgb(196,222,22)" />
+	<colour name="bg range15" 																	value="rgb(168,222,29)" />
+	<colour name="bg range16" 																	value="rgb(147,221,32)" />
+	<colour name="bg range17" 																	value="rgb(86,221,36)" />
+	<colour name="bg range18" 																	value="rgb(73,230,35)" />
+	<colour name="bg range19" 																	value="rgb(38,242,60)" />
+	<colour name="bg range20" 																	value="rgb(10,255,111)" />
 
-	<colour name="bg tactics green dark" value="rgb(0,61,51)" />
-
-	<colour name="bg red lighter" 															value="red 600" />
-	<colour name="bg red" 																			value="red 700" />
-	<colour name="bg red darker" 																value="red 800" />
-	<colour name="bg pink lighter" 															value="pink 600" />
-	<colour name="bg pink" 																			value="pink 700" />
-	<colour name="bg pink darker" 															value="pink 800" />
-	<colour name="bg purple lighter" 														value="purple 600" />
-	<colour name="bg purple" 																		value="purple 700" />
-	<colour name="bg purple darker" 														value="purple 800" />
-	<colour name="bg blue lighter" 															value="blue 600" />
-	<colour name="bg blue" 																			value="blue 700" />
-	<colour name="bg blue darker" 															value="blue 800" />
-	<colour name="bg cyan lighter" 															value="cyan 600" />
-	<colour name="bg cyan" 																			value="cyan 700" />
-	<colour name="bg cyan darker" 															value="cyan 800" />
-	<colour name="bg teal lighter" 															value="teal 600" />
-	<colour name="bg teal" 																			value="teal 700" />
-	<colour name="bg teal darker" 															value="teal 900" />
-	<colour name="bg green lighter" 														value="green 600" />
-	<colour name="bg green" 																		value="green 800" />
-	<colour name="bg green darker" 															value="green 900" />
-	<colour name="bg lime lighter" 															value="lime 600" />
-	<colour name="bg lime" 																			value="lime 700" />
-	<colour name="bg lime darker" 															value="lime 800" />
-	<colour name="bg yellow lighter" 														value="yellow 600" />
-	<colour name="bg yellow" 																		value="yellow 700" />
-	<colour name="bg yellow darker" 														value="yellow 800" />
-	<colour name="bg orange lighter" 														value="orange 600" />
-	<colour name="bg orange" 																		value="orange 700" />
-	<colour name="bg orange darker" 														value="orange 800" />
-	<colour name="bg grey lighter" 															value="grey 600" />
-	<colour name="bg grey" 																			value="grey 700" />
-	<colour name="bg grey darker" 															value="grey 900" />
+	<colour name="bg red lighter" 															value="red 200" />
+	<colour name="bg red" 																			value="red 300" />
+	<colour name="bg red darker" 																value="red 400" />
+	<colour name="bg pink lighter" 															value="pink 200" />
+	<colour name="bg pink" 																			value="pink 300" />
+	<colour name="bg pink darker" 															value="pink 400" />
+	<colour name="bg purple lighter" 														value="purple 200" />
+	<colour name="bg purple" 																		value="purple 300" />
+	<colour name="bg purple darker" 														value="purple 400" />
+	<colour name="bg blue lighter" 															value="blue 200" />
+	<colour name="bg blue" 																			value="blue 300" />
+	<colour name="bg blue darker" 															value="blue 400" />
+	<colour name="bg cyan lighter" 															value="cyan 200" />
+	<colour name="bg cyan" 																			value="cyan 300" />
+	<colour name="bg cyan darker" 															value="cyan 400" />
+	<colour name="bg teal lighter" 															value="teal 200" />
+	<colour name="bg teal" 																			value="teal 300" />
+	<colour name="bg teal darker" 															value="teal 400" />
+	<colour name="bg green lighter" 														value="green 400" />
+	<colour name="bg green" 																		value="green 500" />
+	<colour name="bg green darker" 															value="green 700" />
+	<colour name="bg lime lighter" 															value="lime 200" />
+	<colour name="bg lime" 																			value="lime 300" />
+	<colour name="bg lime darker" 															value="lime 400" />
+	<colour name="bg yellow lighter" 														value="yellow 200" />
+	<colour name="bg yellow" 																		value="yellow 300" />
+	<colour name="bg yellow darker" 														value="yellow 400" />
+	<colour name="bg orange lighter" 														value="orange 200" />
+	<colour name="bg orange" 																		value="orange 300" />
+	<colour name="bg orange darker" 														value="orange 400" />
+	<colour name="bg grey lighter" 															value="grey 200" />
+	<colour name="bg grey" 																			value="grey 300" />
+	<colour name="bg grey darker" 															value="grey 400" />
 
 	<!-- Card colours - used for places where the colours are inverted in the default skin. Inbox, Report cards, etc -->
 	<colour name="card fg lighter" 															value="rgb(255,255,255)"/>
@@ -162,11 +153,8 @@
 
 	<colour name="shadow" 																			value="rgb(0,0,0)" />
 
-
 	<colour name="overall_risk_box_colour_very_high" 		value="bg negative"/>
 	<colour name="aquaintance relationship" 							value="lime 600" />
-
-
 
 	<!-- The following colours are just here temporarily to make sure nothing gets broken in other non-FM projects. We need to determine which of these belong in sitoolkit and which should live in fm colours.xml  -->
 	<!-- Base text colours -->
@@ -186,8 +174,8 @@
 	<colour name="title" 																				value="bg tertiary" /> 
 	<colour name="standard_button_text" 																value="fg"/>
 	<colour name="searchbox text" 																		value="fg"/>
-	<colour name="continue text" 																		value="fg" />
-	<colour name="continue text match" 																	value="fg" />
+	<colour name="continue text" 																		value="bg" />
+	<colour name="continue text match" 																	value="bg" />
 	<colour name="sidebar text" 																		value="white"/>
 	<colour name="news ticker" 																			value="fg alert" />
 
@@ -195,6 +183,7 @@
 	<colour name="accent button text" 						value="bg" />
 	<colour name="filtered text" 							value="bg alert" />
 	<colour name="inbox_text" 								value="fg"/>
+	<colour name="human controlled" 			value="tcs_accent"/>
 	<colour name="team_report_games_drawn_colour" 			value="bg range10"/>
 
 	<!-- STAFF ROLES -->
