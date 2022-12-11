@@ -184,11 +184,11 @@
 	<colour name="filtered text" 							value="bg alert" />
 	<colour name="inbox_text" 								value="fg"/>
 	<colour name="human controlled" 			value="tcs_accent"/>
-	<colour name="team_report_games_drawn_colour" 			value="bg range10"/>
+	<colour name="team_report_games_drawn_colour" 			value="fg range10"/>
 
 	<!-- STAFF ROLES -->
-	<colour name="staff overview head performance analyst colour" value="bg yellow"/>
-	<colour name="staff overview performance analyst colour" 			value="bg yellow darker"/>
+	<colour name="staff overview head performance analyst colour" value="fg yellow"/>
+	<colour name="staff overview performance analyst colour" 			value="fg yellow darker"/>
 
 	<!-- SEARCH FILTER -->
 	<colour name="search filter active" 			value="bg darker"/>
