@@ -87,7 +87,6 @@
 	<colour name="bg negative" 																	value="rgb(182,40,40)"/>
 	<colour name="bg accent" 																		value="tcs_accent"/>
 
-
 	<colour name="bg range1" 																		value="rgb(255,84,84)" />
 	<colour name="bg range2" 																		value="rgb(255,92,78)" />
 	<colour name="bg range3" 																		value="rgb(251,96,72)" />
@@ -204,6 +203,12 @@
 	<colour name="calendar preseason" 						value="grey 500" />
 	<colour name="calendar schedule date" 					value="grey 500"/>
 	<colour name="calendar transfer window" 				value="bg red"/>
+
+	<!-- STAR RATING -->
+	<colour name="star rating senior" 						value="rgb(244,188,0)"/>
+	<colour name="star rating youth" 						value="rgb(183,188,191)"/>
+	<colour name="star rating empty" 						value="rgb(202,202,202)"/>
+	<colour name="star rating unknown" 						value="rgb(28,28,29)"/>
 
 	<!-- Base icon colours -->
 	<colour name="normal_icon" 																			value="fg tertiary"/>
