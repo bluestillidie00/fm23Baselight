@@ -198,6 +198,13 @@
 	<colour name="manager responsibility" 					value="fg blue" />
 	<colour name="staff responsibility" 					value="fg purple" />
 
+	<!-- CALENDAR -->
+	<colour name="calendar fixture" 						value="light blue 800"/>
+	<colour name="calendar reserve fixture" 				value="blue grey 400" />
+	<colour name="calendar preseason" 						value="grey 500" />
+	<colour name="calendar schedule date" 					value="grey 500"/>
+	<colour name="calendar transfer window" 				value="bg red"/>
+
 	<!-- Base icon colours -->
 	<colour name="normal_icon" 																			value="fg tertiary"/>
 	<colour name="button_icon" 																			value="fg"/> 
