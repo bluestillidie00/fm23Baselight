@@ -74,6 +74,8 @@
 	<colour name="fg grey" 																			value="grey 700" />
 	<colour name="fg grey darker" 															value="grey 800" />
 
+	<colour name="fg info" 																	value="fg range10"/>
+	
 	<!-- Background colours - used for background, boxes etc -->	
 	<colour name="bg lighter" 																	value="rgb(255,255,255)"/>
 	<colour name="bg" 																					value="rgb(244,244,244)"/>
