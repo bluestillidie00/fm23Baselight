@@ -236,7 +236,7 @@
 	<colour name="toggle_button" 																		value="fg"/> 
 	<colour name="primary_button" 																		value="bg accent"/> 
 	<colour name="view_button" 																			value="fg"/>
-	<colour name="link_button" 																			value="fg blue darker"/>
+	<colour name="link_button" 																			value="fg tertiary"/>
 	<colour name="conversation_statement_button" 														value="fg"/>
 	<colour name="conversation_statement_selected_button" 												value="cyan 400"/>
 	<colour name="standard_label" 																		value="bg info"/>
