@@ -160,6 +160,7 @@
 	<!-- The following colours are just here temporarily to make sure nothing gets broken in other non-FM projects. We need to determine which of these belong in sitoolkit and which should live in fm colours.xml  -->
 	<!-- Base text colours -->
 	<colour name="text" 																				value="fg"/>
+	<colour name="normal icon" 																				value="fg"/>
 	<colour name="faded text" 																			value="fg alpha"/>
 	<colour name="alt text" 																			value="fg"/>
 	<colour name="faded alt text" 																		value="fg alpha"/> 
