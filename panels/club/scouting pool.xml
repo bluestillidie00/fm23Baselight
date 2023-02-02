@@ -1,4 +1,5 @@
 <panel>
+<string id="skin_style" value="person_button" />
 
 	<boolean id="save_session_state" value="true" />
 	<boolean id="save_default_state" value="true" />
@@ -56,7 +57,7 @@
 
 					<list id="column_widget_properties">
 						<record indx="0" navigation_focus_target="false" />
-						<record indx="6" colour="red" />
+						<record indx="1" colour="red" />
 					</list>
 
 				</widget>
@@ -71,7 +72,7 @@
 
 				<attachment_group class="horizontal_arrange" horizontal_alignment="right" horizontal_offset="0" horizontal_gap="0" vertical_alignment="vertical" vertical_inset="0" />
 
-				<widget class="icon_button" id="pras" click_event="pras" auto_size="horizontal" save_session_state="true" controller_button="y_button">
+				<widget class="icon_button" id="pras" click_event="pras" auto_size="horizontal" save_session_state="true" controller_button="y_button" icon_colour="bg">
 					<translation id="text" translation_id="466402" type="use" value="Prioritise Assignment[COMMENT: FR 22639, scouting centre assignments option title]" />
 				</widget>
 

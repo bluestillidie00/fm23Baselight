@@ -1,0 +1,53 @@
+﻿<panel>
+    <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+	<string id="skin_style" value="person_button" />
+
+    <container>
+        <attachment_group class="vertical_arrange" vertical_gap="-8" vertical_offset="0"/>
+
+        <container height="36">
+            <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+
+            <container>
+                <attachment_group class="horizontal_arrange" horizontal_layout="-1, 36, -1" horizontal_gap="-8"/>
+
+                <!-- scored? -->
+                <widget class="picture" id="goal" file="icons/16px/goal" scale_picture="false" keep_aspect_ratio="true" height="16" width="16" image_alignment="right, centre_y"/>
+
+                <!-- squad number and icon -->
+                <container>
+                    <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+
+                    <widget class="picture" id="bsic" scale_picture="true" keep_aspect_ratio="true" file="pitch/icons/kit/large/kit" image_alignment="centre"/>
+                    <widget class="label" id="bsnm" size="small" style="bold" alignment="centre"/>
+                </container>
+
+                <!-- was subbed off? -->
+                <widget class="picture" id="subo" file="icons/16px/sub off" scale_picture="false" keep_aspect_ratio="true" height="16" width="16" image_alignment="left, centre_y"/>
+            </container>
+        </container>
+
+        <container>
+            <attachment_group class="vertical_arrange_autosize" vertical_gap="0" vertical_offset="0"/>
+
+            <!-- name -->
+            <widget class="text" id="name" auto_size="vertical" alignment="centre, can_scale" enforce_style="true" spec="text">
+                <layout class="centre_in_parent_attachment" alignment="horizontal"/>
+            </widget>
+
+            <container>
+                <attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle, extend" horizontal_gap="0"/>
+
+                <!-- match rating -->
+                <widget class="match_rating_label_formatted" id="avra" auto_size="all" alignment="centre" format="[%fraction#1-2.1]" navigation_focus_target="false">
+                    <layout class="centre_in_parent_attachment" alignment="horizontal"/>
+                </widget>
+
+                <!-- player of the match -->
+                <widget class="picture" id="momi" file="icons/custom/star rating/senior/full" scale_picture="true" keep_aspect_ratio="true" height="16" width="16" hidden="true">
+                    <layout class="stick_to_object_attachment" id="align_left" offset="2" get_side="right" set_side="left" target="avra"/>
+                </widget>
+            </container>
+        </container>
+    </container>
+</panel>
